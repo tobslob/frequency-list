@@ -1,5 +1,6 @@
 package com.tobslob;
 
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.io.*;
 
@@ -7,28 +8,36 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            File text = new File("src/wiki.txt");
-            Scanner reader = new Scanner(text);
-
+            String str = readFile();
             HashMap<String, Integer> map = new HashMap<>();
-            System.out.println("Hello reader" + reader);
 
-            while (reader.hasNextLine()) {
-                String str = reader.nextLine();
-                String[] splitStr = str.replaceAll("[\";,.:()]", "").replaceAll("[\n/]", " ").toLowerCase().split(" ");
-                for (int i = 0; i < splitStr.length; i++) {
-                    if (map.containsKey(splitStr[i])) {
-                        map.put(splitStr[i], map.get(splitStr[i]) + 1);
-                    } else {
-                        map.put(splitStr[i], 1);
-                    }
+            String[] splitStr = str.replaceAll("[\";,.:()]", "").replaceAll("[\n/]", " ").toLowerCase().split(" ");
+            for (String s : splitStr) {
+                if (map.containsKey(s)) {
+                    map.put(s, map.get(s) + 1);
+                } else {
+                    map.put(s, 1);
                 }
             }
-            reader.close();
+
             System.out.println(map);
-        } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
+        } catch (IOException e) {
+            System.out.println("File not found.");
+        } catch (Exception e) {
+            System.out.println("An error occur.");
             e.printStackTrace();
         }
+    }
+
+    private static String readFile() throws IOException {
+        File text = new File("src/wiki.txt");
+
+        FileInputStream fis = new FileInputStream(text);
+
+        byte[] data = new byte[(int) text.length()];
+        fis.read(data);
+        fis.close();
+
+        return new String(data, StandardCharsets.UTF_8);
     }
 }
