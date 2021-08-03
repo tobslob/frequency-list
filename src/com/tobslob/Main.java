@@ -1,6 +1,5 @@
 package com.tobslob;
 
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 import java.io.*;
 
@@ -8,7 +7,16 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            String str = readFile();
+            File text = new File("src/wiki.txt");
+
+            FileInputStream fis = new FileInputStream(text);
+
+            byte[] data = new byte[(int) text.length()];
+            fis.read(data);
+            fis.close();
+
+            String str = new String(data, "UTF-8");
+
             HashMap<String, Integer> map = new HashMap<>();
 
             String[] splitStr = str.replaceAll("[\";,.:()]", "").replaceAll("[\n/]", " ").toLowerCase().split(" ");
@@ -21,23 +29,11 @@ public class Main {
             }
 
             System.out.println(map);
-        } catch (IOException e) {
+        } catch (IOException io){
             System.out.println("File not found.");
         } catch (Exception e) {
             System.out.println("An error occur.");
             e.printStackTrace();
         }
-    }
-
-    private static String readFile() throws IOException {
-        File text = new File("src/wiki.txt");
-
-        FileInputStream fis = new FileInputStream(text);
-
-        byte[] data = new byte[(int) text.length()];
-        fis.read(data);
-        fis.close();
-
-        return new String(data, StandardCharsets.UTF_8);
     }
 }
