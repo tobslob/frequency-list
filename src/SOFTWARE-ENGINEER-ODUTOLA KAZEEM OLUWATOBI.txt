@@ -1,0 +1,208 @@
+﻿PERSONAL INFORMATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   SUMMARY
+	(+234) 7039387595  
+	 odutola_k@yahoo.ca  
+	  
+ https://www.linkedin.com/in/kazeem-oluwatobi-odutola-14aa64156/
+  
+ https://github.com/tobslob
+
+
+I am a passionate, results-driven and relentless software engineer who takes Technical initiatives in building exceptional digital experiences and focuses on building accessible, human-centered products. I enjoy creating things that live on the internet.
+	
+
+
+
+EXPERIENCE
+	  
+
+	
+
+Dec 2019 – Present                      Backend Software Engineer
+Sterling Bank Plc
+Company info Sterling Bank Plc, which is a full service national commercial bank is licensed by the Central Bank of Nigeria.
+
+
+Job roles
+Designed, built and deployed a well tested and observable microservice based platform.
+Stack: NodeJS and MongoDB, Kubernetes(AKS), Prometheus Stack(Loki, Grafana, Prometheus), RabbitMQ, Redis, Typescript and Golang.
+
+
+
+
+Jan 2019 – Sept 2019
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+October 2016–  July 2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Software Engineer
+Andela Nigeria
+Company info Andela is a global talent accelerator that produces world-class developers and connects them with top employers.
+
+
+Job roles 
+Worked with a team to develop Barefoot nomad which is an application that enables its “Company Nomads” book their international travel and accommodation globally; easily and conveniently across all the locations/centers where the Company has its operations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Software Developer (Remote)
+	Fiverr International Limited (Tel Aviv, Israel) 
+
+
+Company info Fiverr is a marketplace of online freelancers who pride themselves on getting it done for clients on time and on budget.
+
+
+Job roles 
+	* Write programs in a variety of computer languages (Node.js, Javascript, HTML and CSS).
+* Uses of API and code libraries, which are collections of independent lines of code, to simplify the writing
+* Build and use computer-assisted software engineering (CASE) tools to automate the writing of some code
+* Confirms project requirements by reviewing program objective
+* Arranges project requirements in programming sequence by analysing requirements; preparing work flow chart and diagram using knowledge of computer capabilities, subject matter, programming language and logic
+* Encodes project requirements by converting work flow information into computer language
+* Maintains client confidence and protects operations by keeping information confidential.
+* Responding to and giving support to customers(Online Chat Platform)
+* Gig promotion and advertisement
+
+
+
+
+Technology and Tools:
+Docker, AWS (ECS, EKS), CI/CD, Jest, NodeJS, Golang, Version Control (GIT), Mongodb,Typescript
+
+
+	
+
+	
+
+	
+
+	
+
+EDUCATION AND TRAINING
+	  
+ 
+	                           
+
+
+April 2018 – July 2018
+	Diploma in Java Programming
+	
+
+	New Horizons, Ikeja (Nigeria) 
+	
+
+	
+
+Feb 2012 – Dec 2015
+	Bachelor of Science (BSc) Physiology
+	
+
+	University of Ibadan, Ibadan(Oyo State) (Nigeria) 
+	
+
+
+
+	        
+29/6/18                  Page  /
